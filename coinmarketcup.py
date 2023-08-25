@@ -1,4 +1,5 @@
-
+# https://www.youtube.com/watch?v=vuLmLQT4MDU&t=94s
+# парсер монет c coinmarketcup (монета цена)
 import requests
 from bs4 import BeautifulSoup
 
