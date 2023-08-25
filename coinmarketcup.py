@@ -16,7 +16,7 @@ soup = BeautifulSoup(resp, "lxml")
 tbody = soup.find("tbody")
 coins = tbody.find_all("tr")
 
-print(coins)
+# print(coins)
 for coin in coins:
     name = coin.find(class_ = "crypto-symbol")
     price = coin.find_all("td")[-2]
